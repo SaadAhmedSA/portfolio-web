@@ -6,7 +6,8 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiCss3
+  DiCss3,
+  DiExtjs
 } from "react-icons/di";
 import {
   AiFillHtml5
@@ -55,14 +56,12 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiExpress />
       </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
